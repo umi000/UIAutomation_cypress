@@ -1,0 +1,30 @@
+{
+  "name": "uiautomation",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "env_based_execution": "npx cypress run  --record --key b7780ee0-d0d1-48d6-8c82-db78d28b8cf2  --env SUITE=regression,configFile=stage --spec cypress/e2e/testcases/** --browser chrome --headless"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/dnnae-admin/uiautomation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/dnnae-admin/uiautomation/issues"
+  },
+  "homepage": "https://gitlab.com/dnnae-admin/uiautomation#readme",
+  "devDependencies": {
+    "@neuralegion/cypress-har-generator": "^5.16.4",
+    "cypress": "^12.5.1",
+    "cypress-mochawesome-reporter": "^3.5.0",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "mochawesome": "^7.1.3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "userName" : "thetestaccount@mailinator.com" ,
+    "invalidUserName" : "test@",
+    "password" : "Dnnae@1234" ,
+    "invalidEmail" : "test@test.com" ,
+    "invalidPassword" : "testinguser" ,
+    "signupUserName" : "thetestaccounttest@mailinator.com",
+    "signupFullName" : "testing user" ,
+    "signupPassword" : "Dnnae@1234" ,
+    "signupEmailPlaceHolderText" : "john@doe.com" ,
+    "loginEmailPlaceHolderText" : "jon@doe.com",
+    "signupFullNamePlaceHolderText" : "John Doe" ,
+    "signupPasswordPlaceHolderText" : "At least 8 characters"  ,
+    "invalidForgetPassowrdEmail" : "test@ts.com" 
+}
